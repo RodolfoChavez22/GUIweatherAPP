@@ -1,7 +1,6 @@
 from tkinter import *
 import tkinter as tk
 import requests
-from PIL import ImageTk, Image
 
 def output(weather):
 	try:
