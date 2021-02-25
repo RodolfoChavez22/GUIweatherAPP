@@ -42,8 +42,6 @@ root = tk.Tk()
 
 root.title("WEATHER APP")
 
-img = ImageTk.PhotoImage(Image.open('weather icon.png'))
-
 root.resizable(height=False, width=False)
 
 canvas = tk.Canvas(root, height=650, width=650,bg='light yellow')
